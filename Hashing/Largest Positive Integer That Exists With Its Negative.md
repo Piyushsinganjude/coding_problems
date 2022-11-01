@@ -38,5 +38,5 @@ class Solution {
 Expected Time Complexity: O(NLog(N))
 Expected Auxiliary Space: O(N)
 ```
-## Geeksforgeeks
+## leetcode
 [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/)
