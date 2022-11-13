@@ -47,5 +47,5 @@ public:
 Expected Time Complexity: O(N)
 Expected Auxiliary Space: O(N)
 ```
-## leetcode
+## gfg
 [Subarray with 0 sum](https://practice.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1?page=1&difficulty[]=0&category[]=Hash&sortBy=submissions)
