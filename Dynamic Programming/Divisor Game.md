@@ -1,22 +1,26 @@
 ## Divisor Game
-The Fibonacci numbers, commonly denoted F(n) form a sequence called the Fibonacci sequence such that each number is the sum of the two preceding ones starting from 0 and 1. That is:
+Alice and Bob take turns playing a game, with Alice starting first.
 
-F(0) = 0, F(1) = 1
-F(n) = F(n - 1) + F(n - 2), for n > 1.
-Given n, calculate F(n).
+Initially, there is a number n on the chalkboard. On each player's turn, that player makes a move consisting of:
+
+Choosing any x with 0 < x < n and n % x == 0.
+Replacing the number n on the chalkboard with n - x.
+Also, if a player cannot make a move, they lose the game.
+
+Return true if and only if Alice wins the game, assuming both players play optimally.
 
  
 
 Example 1:
 
-Input is : n = 2
-Output: 1
-Explanation: F(2) = F(1) + F(0) = 1 + 0 = 1.
+Input: n = 2
+Output: true
+Explanation: Alice chooses 1, and Bob has no more moves.
 Example 2:
 
-Input is: n = 3
-Output: 2
-Explanation: F(3) = F(2) + F(1) = 1 + 1 = 2.
+Input: n = 3
+Output: false
+Explanation: Alice chooses 1, Bob chooses 1, and Alice has no more moves.
 ```
 
 ## Solution 
@@ -24,8 +28,8 @@ Explanation: F(3) = F(2) + F(1) = 1 + 1 = 2.
 ```c++
 class Solution{
 public:
-   int fib(int n) {
-        return n<=1 ? n : fib(n-1) + fib (n-2);
+  bool divisorGame(int n) {
+       return n % 2== 0; 
     }
 };
 ```
