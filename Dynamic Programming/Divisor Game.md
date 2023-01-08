@@ -41,4 +41,4 @@ Expected Auxiliary Space: O(n)
 
 ```
 ## leetcode
-[Divisor Game]()
+[Divisor Game](https://leetcode.com/problems/divisor-game/description/)
