@@ -1,2 +1,7 @@
 # coding_problems
 This are basically the solutions of the questions i have been solving!!!
+<div align = "center">
+
+| Problems                                                                                                                                                                                 | Related Topic                                                                                                                                                           | Difficulty                                                       | Solution                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [Preorder Traversal](https://practice.geeksforgeeks.org/problems/preorder-traversal/1)                                                                                                   | [`Tree`](https://practice.geeksforgeeks.org/explore/?category%5B%5D%3DTree)                                                                                             | ![Basic](https://img.shields.io/badge/Basic-
