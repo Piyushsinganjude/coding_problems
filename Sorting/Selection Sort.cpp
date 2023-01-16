@@ -6,4 +6,4 @@ for(int i=n-1;i>0;i--){
        arr[i] = arr[max_ele_pos];
        arr[max_ele_pos] = temp;
    }
-Link - https://practice.geeksforgeeks.org/problems/selection-sort/1?page=1&difficulty[]=0&category[]=Sorting&sortBy=submissions)
+Link - https://practice.geeksforgeeks.org/problems/selection-sort/1?page=1&difficulty[]=0&category[]=Sorting&sortBy=submissions
