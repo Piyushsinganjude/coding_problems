@@ -7,7 +7,7 @@ Example 1:
 
 Input: nums = [3,1,2,4]
 Output: [2,4,3,1]
-Explanation: The outputs [4,2,3,1], [2,4,1,3],  would also be accepted.
+Explanation: The outputs [4,2,3,1], [2,4,1,3] would also be accepted.
 Example 2:
 
 Input: nums = [0]
