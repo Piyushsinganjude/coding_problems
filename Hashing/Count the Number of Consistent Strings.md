@@ -3,9 +3,10 @@ You are given a string allowed consisting of distinct characters and an array of
 
 Return the number of consistent strings in the array words.
 ```bash 
-Example 1:
+Example 1
 
-Input: allowed = "ab", words = ["ad","bd","aaab","baa","badab"]
+
+Input: allowed = "ab" words = ["ad","bd","aaab","baa","badab"]
 Output: 2
 Explanation: Strings "aaab" and "baa" are consistent since they only contain characters 'a' and 'b'.
 Example 2:
